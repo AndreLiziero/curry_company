@@ -129,8 +129,8 @@ def avg_distance_delivery(df1, title = ''):
                     layout = {'width': 630})
     fig.update_layout(legend=dict(orientation='v',
                                   y=1,
-                                  x=0.8),
-                     margin = dict(t=0, l=0, r=100, b=0))    
+                                  x=0.9),
+                     margin = dict(t=10, l=10, r=100, b=10))    
     return fig
 
 def avg_time_city_traffic(df1, title = ''):
