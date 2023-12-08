@@ -260,7 +260,7 @@ with tab1:
             st.plotly_chart(avg_time_city_traffic(df1, 'Tempo Médio por Cidade e Tráfego'), use_container_widht=True)
 
     with st.container():
-        left,middle,right = st.columns([2,2,1])
+        left,middle,right = st.columns([2,2.5,1])
         with middle:
             st.dataframe(df_avg_std_city_order(df1))
         
